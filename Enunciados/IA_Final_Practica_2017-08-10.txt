@@ -1,0 +1,16 @@
+[Final Inteligencia Artificial - 10/8/17]
+Práctica:
+Hechos:
+persona(dni,nombre,edad,obraSocial,plan).
+obraSocial (obra,plan, medicamento,%cobertura).
+1- devolver una lista con los DNI de las personas que tengan más de 65 años y cuyo plan cubra al menos 10 medicamentos al 100%.
+2- devolver los datos de aquellas personas que tengan más de una obra social.
+(Atentos con el segundo ejercicio, según Laura "casi nadie lo hizo bien, porque era bien sencillo y todos se entreveraron". 
+Era con fail, no con retract.)
+
+Teoría (la mía al menos):
+Cap 1: Problemas de consecuencia cierta vs incierta.
+Cap 2: Búsquedas heurísticas vs exhaustivas.
+Cap 3: Composición de un argumento. Como veo la validez en una tabla de verdad. Como compruebo la validez si hay demasiadas proposiciones. Qué es una tautología. Refutación por analogía lógica.
+Cap 4: Ventajas de un Sistema Experto
+Cap 5: ~nada~ (pero creo que porque venía bastante bien)

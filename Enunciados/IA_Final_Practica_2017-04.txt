@@ -1,0 +1,51 @@
+Buenas de nuevo gente! antes de irme para no ser tan autista les quiero agredecer un monton por todos los momentos compartidos,
+la verdad que fue todo una muy linda experiencia y espero que donde me toque el destino poder encontrar la misma calidad de gente 
+
+album(bipolar, cuartetoDeNos, [1, 2, 3, 4], '03/11/2004', 1500000).
+album(elemento7, vitas, [5, 6, 7, 8], '03/11/2004', 2000000).
+album(elemento8, vitas, [9, 10, 11, 12], '05/08/2004', 3000).
+album(soledad, losSuecos, [13, 14], '05/12/2004', 1000200).
+album('compañia', losSuecos, [15, 16, 17], '03/11/2008', 1510000).
+album(elemento9, vitas, [18,19,20],'04/12/2008',1500000).
+
+cantante(vitas, suecia).
+cantante(losSuecos, suecia).
+cantante(cuartetoDeNos, uruguay).
+cantante(ozuna, puertoRico).
+cantante(vicentico, argentina).
+
+
+Dada una BD con:
+
+cantante(nombre_cantante, pais_origen)
+
+album(nombre_album ,nombre_cantante ,[lista_temas]), fecha_edicion, copias_vendidas)
+
+(El formato del campo fecha es dd/mm/aaaa)
+
+1)Ingrese un álbum y una lista [] de temas y a partir de esto:
+  devolver una lista con aquellos temas de la lista original que correspondan al álbum ingresado.
+
+2)Informar cuantos álbumes fueron lanzados en un determinado aáo (dato de entrada) 
+por cantantes de origen sueco.
+
+3)Ingresar un cantante y devolver una lista con todos los albumes que haya lanzado 
+a lo largo de su carrera y cuya cantidad de copias supere el millán.
+De las cosas más locas que habáa en las consignas estaba el tema de sacar la fecha(dd/mm/aaaa). 
+Para eso habáa que usar el predicado sub_atom, sub_atom(fecha_edicián,6,4,_,Año).
+
+En la primera parte tuve algunos errores, entre ellos usar mal el backtracking en los puntos 1, 2 
+y además me olvide la longitud esperada para el corte cuando usaba sub_atom. Sin embargo pase a la 
+teoría, en esta instancia me hizo varias preguntas la profesora.
+
+1- Cuales son los problemas recuperables, no recuperables y ignorables, explicacián y algunos ejemplos 
+para cada uno. 
+2- Que tipo de estructura de control se utiliza para cada uno de ellos.
+3- Verificacián de restricciones
+4- Como esta formado un argumento, de que forma demostraráa la validez de un argumento cuando el mismo es 
+corto, es decir, cuando esta compuesto por una o dos sentencias. 
+5- Como lo demostraráa la validez de un argumento cuando esta compuesto por muchos enunciados. 
+6- Que son las reglas de inferencia y para que se usan.
+7- Como esta compuesto un sistema experto
+8- Ventajas de una red neuronal, aca le nombre la capacidad de aprendizaje y me dijo que le enuncie las 
+distintas formas de aprender que tienen.
