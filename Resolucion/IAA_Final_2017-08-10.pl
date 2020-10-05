@@ -7,3 +7,6 @@ obraSocial (obra,plan, medicamento,%cobertura).
 2- devolver los datos de aquellas personas que tengan más de una obra social.
 (Atentos con el segundo ejercicio, según Laura "casi nadie lo hizo bien, porque era bien sencillo y todos se entreveraron". 
 Era con fail, no con retract.)                                                                                                 */
+
+:- dynamic (obraSocial/4).
+:- dynamic (persona/5).
