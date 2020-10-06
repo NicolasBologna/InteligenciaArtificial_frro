@@ -1,14 +1,24 @@
 
-obraSocial(unr,plan1,ibuprofeno,100).
-obraSocial(unr,plan1,diclofenac,100).
-obraSocial(unr,plan1,bayaspirina,100).
-obraSocial(unr,plan1,amoxicilina,100).
-obraSocial(unr,plan1,jarabeDePalo,10).
-obraSocial(unr,plan1,keta,100).
+obrasocial(unr,plan1,ibuprofeno,100).
+obrasocial(unr,plan1,diclofenac,100).
+obrasocial(unr,plan1,bayaspirina,100).
+obrasocial(unr,plan1,amoxicilina,100).
+obrasocial(unr,plan1,jarabeDePalo,10).
+obrasocial(unr,plan1,ibuprofeno,100).
+obrasocial(unr,plan1,diclofenac,100).
+obrasocial(unr,plan1,bayaspirina,100).
+obrasocial(unr,plan1,amoxicilina,100).
+obrasocial(unr,plan1,jarabeDePalo,10).
+obrasocial(unr,plan1,ibuprofeno,100).
+obrasocial(unr,plan1,diclofenac,100).
+obrasocial(unr,plan1,bayaspirina,100).
+obrasocial(unr,plan1,amoxicilina,100).
+obrasocial(unr,plan1,jarabeDePalo,10).
+obrasocial(unr,plan1,keta,100).
 obrasocial(iapos,plan2,ibuprofeno,100).
-obraSocial(iapos,plan2,keta,50).
-obraSocial(iapos,plan2,jarabe,100).
-obraSocial(iapos,plan2,actron,100).
+obrasocial(iapos,plan2,keta,50).
+obrasocial(iapos,plan2,jarabe,100).
+obrasocial(iapos,plan2,actron,100).
 
 persona(38135952,ligia,23,unr,plan1).
 persona(38135953,patricia,70,unr,plan1).

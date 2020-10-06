@@ -1,22 +1,37 @@
 /*                                        [Final Inteligencia Artificial - 10/8/17]
 Hechos:
-persona(dni,nombre,edad,obraSocial,plan).
-obraSocial (obra,plan, medicamento,%cobertura).
+persona(dni, nombre, edad, obraSocial, plan).
+obraSocial (obra, plan, medicamento, cobertura).                       */
 
-1- devolver una lista con los DNI de las personas que tengan más de 65 años y cuyo plan cubra al menos 10 medicamentos al 100%.
-2- devolver los datos de aquellas personas que tengan más de una obra social.
-(Atentos con el segundo ejercicio, según Laura "casi nadie lo hizo bien, porque era bien sencillo y todos se entreveraron". 
-Era con fail, no con retract.)                                                                                                 */
-
-:- dynamic (obraSocial/4).
+:- dynamic (obrasocial/4).
+:- dynamic (auxos/1).
 :- dynamic (persona/5).
 
-inicio :- abrir_base. menu.
+inicio :- abrir_base,
+          writeln("1 - (Lista personas mayores a 65 cuyo plan cubra al menos 10 medicamentos al 100%)"),
+          writeln("2 - (Datos de personas con mas de una obra social)"),
+          writeln("3 - (Salir)"),
+          read(Opc), Opc \= 3, opcion(Opc).
+inicio.
 
-menu :- writeln("1 - (Lista personas mayores a 65 cuyo plan cubra al menos 10 medicamentos al 100%)"),
-        writeln("2 - (Datos de personas con mas de una obra social)"),
-        writeln("3 - (Salir)").
 
-abrir_base :- retractall(obraSocial/4),
+opcion(1) :- writeln("Listado de persona mayores a 65 con un plan que cubre al menos 10 medicamentos al 100 %:"),
+             consultarPersonas, inicio.
+
+opcion(2) :- writeln("Listados de personas con mas de una obra social"), retract(persona( Dni, Nombre, Edad, OS1, _)), retract(persona( Dni, Nombre, Edad, OS2, _)),
+             retract(persona( Dni, _, _, _, _)), write("DNI: "), write(Dni), write(" - Nombre: "), write(Nombre), write(" - Edad: "), writeln(Edad), fail.
+
+consultarPersonas :- retract( persona( Dni, _, Edad, OS, Plan)), Edad > 65, getMedCob( OS, Plan), consultaMedsCant(Cant), Cant> 10, write("DNI "), write(Dni), write(" - La cantidad "), writeln(Cant), consultarPersonas.
+consultarPersonas.
+
+consultaMedsCant(Cont) :- auxos(P), retract( auxos(P)), consultaMedsCant(Cant), Cont is Cant + 1.
+consultaMedsCant(0).
+
+
+getMedCob( OS, Plan) :- retractall(auxos/1), obrasocial( OS, Plan, M, 100), assert(auxos(M)),fail.
+getMedCob( _, _).
+
+
+abrir_base :- retractall(obrasocial/4),
               retractall(persona/5),
               consult('C:/Users/Agus/Desktop/Inteligencia Artificial/Guada Info/Prolog/Finales_Agu/BC/BC_IAA_Final_2017-08-10.txt').
