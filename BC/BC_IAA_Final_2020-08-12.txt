@@ -1,0 +1,11 @@
+
+camion(100, scania, 2020, n1, 1000, camion_de_lona, a2_ejes, rigido).
+camion(400, nisan, 2019, n2, 1500, plataforma_abierta, a3_ejes, rigido).
+camion(700, ford, 2014, fn1, 2000, plataforma_abierta, a4_ejes, tren_de_carretera).
+camion(200, chevrolet, 2018, cn1, 900, camion_de_lona, a2_ejes, rigido).
+camion(300, scania, 2019, sn1, 1500, plataforma_abierta, a3_ejes, articulado).
+camion(800, ford, 2017, fn1, 3000, camion_de_lona, a4_ejes, articulado).
+
+conductor(525, agustin_elias, 56, rosario, [100,200,300]).
+conductor(626, juan_ferronato, 56, perez, [400,500,600]). 
+conductor(727, bigote_aimone, 56, barcelona, [700,800,900]).
