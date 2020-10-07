@@ -44,7 +44,7 @@ leer2([]).
 mostrarListaFiltrada([H|T]) :- writeln(H), mostrarListaFiltrada(T).
 mostrarListaFiltrada([]).
 
-proceso([H|T], M, Mod, [H|T2]) :- camion(H, M, Mod, _, _, _, _, _), writeln("pasa por ak"), proceso( T, M, Mod, T2).
+proceso([H|T], M, Mod, [H|T2]) :- camion(H, M, Mod, _, _, _, _, _), proceso( T, M, Mod, T2).
 proceso([_|T], M, Mod, L) :- proceso(T, M, Mod, L).
 proceso([], _, _, []).
 
