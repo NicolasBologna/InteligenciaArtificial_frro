@@ -6,6 +6,6 @@ camion(200, chevrolet, 2018, cn1, 900, camion_de_lona, a2_ejes, rigido).
 camion(300, scania, 2019, sn1, 1500, plataforma_abierta, a3_ejes, articulado).
 camion(800, ford, 2017, fn1, 3000, camion_de_lona, a4_ejes, articulado).
 
-conductor(525, agustin_elias, 56, rosario, [100,200,300]).
-conductor(626, juan_ferronato, 56, perez, [400,500,600]). 
-conductor(727, bigote_aimone, 56, barcelona, [700,800,900]).
+conductor(525, 'agustin elias', 56, rosario, [100,200,300]).
+conductor(626, 'juan ferronato', 56, perez, [400,500,600]). 
+conductor(727, 'bigote aimone', 56, barcelona, [700,800,900]).

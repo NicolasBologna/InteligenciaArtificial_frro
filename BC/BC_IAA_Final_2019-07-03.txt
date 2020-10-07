@@ -1,0 +1,20 @@
+
+vehiculo(1,['rojo','con aire',3,2000]).
+vehiculo(2,['azul','con aire',3,2015]).
+vehiculo(3,['amarillo','sin aire',5,2002]).
+vehiculo(4,['rojo','con aire',5,2000]).
+
+ventas(1,1,2019).
+ventas(2,1,2019).
+ventas(3,1,2019).
+ventas(4,1,2019).
+ventas(5,1,2019).
+ventas(6,1,2019).
+ventas(7,1,2019).
+ventas(8,1,2019).
+ventas(9,1,2019).
+ventas(10,1,2019).
+ventas(11,1,2019).
+ventas(12,2,2018).
+ventas(13,3,2015).
+ventas(14,3,2015).

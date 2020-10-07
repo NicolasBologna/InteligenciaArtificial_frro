@@ -1,0 +1,14 @@
+                        [Final Inteligencia Artificial - 3/7/19]
+Hechos:
+vehiculoi(cod_vehiculo,caracteristicas).
+caracteristicas: [color,aire acondicionado,puertas,modelo].
+ventas(num_factura,cod_vehiculo, fecha).
+
+1) ingresar una caracteristica y devolver una lista con codigos de los autos que tengan esa caracteristica.
+(este ejercicio es muy similar a los que fueron subiendo aca,
+habia que usar el predicado que se hace generalmente, el "pertenece",
+para indicar si la caracteristica pertenecia a la lista de caracteristicas de cada auto que se recorria
+y despues devolver la lista con los cod de los autos)
+
+
+ingresar una lista de codigos de vehiculos y un año y devolver una lista con los autos que se hayan vendido mas de 10 veces en ese año (era un contar por cada venta de un mismo vehiculo y despues validar si el cont era mayor a 10, hay ejercicios resueltos de este estilo)

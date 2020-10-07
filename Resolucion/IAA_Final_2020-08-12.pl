@@ -26,9 +26,6 @@ opcion(1) :- abrir_base, leer(L),
              write(" y modelo: "), write(Modelo), writeln(" buscados:"),
              muestraCodCam(LSalida).
 
-% camion(cod_camion, marca, modelo, tipo_mma, peso_vacio, tipo1, tipo2, tipo3).
-% conductor(cod_conductor, apellido_nombre, edad, ciudad_natal, [cod_camion]).
-
 opcion(2) :- abrir_base, writeln("Ingrese el camion"), read(C),
              writeln("Ingrese el listado de conductores"), leer2(Lista),
              filtraLista( C, Lista, LSalida), write("El listado de Conductores No hablitados para el Camion "),
