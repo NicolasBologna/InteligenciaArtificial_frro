@@ -1,7 +1,7 @@
 
 nino('catriel',10,['hepatitis b','triple viral','gripe', 'vph']).
 nino('santiago',10,['bcg','hepatitis b','polio ipv']).
-nino('damian',10,['ratavirus']).
+nino('damian',10,['ratavirus','vph']).
 
 vacuna_edad(1,6,['bcg','hepatitis b','polio ipv','ratavirus','neumococo conjugada','gripe','hepatitis a','triple viral','fiebre amarilla','quintuple pentavalente celular']).
 vacuna_edad(7,11,['triple bacteriana','vph']).
