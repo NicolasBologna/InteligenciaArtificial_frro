@@ -1,0 +1,21 @@
+/*
+1) Ingresar el nombre de algún niño y según la edad, mostrar una lista con las facunas que le faltan aplicarse.
+
+2) Ingresar una enfermedad y mostrar la cantidad de vacunas que la curan. */
+
+
+[IA] Final 08/03/18
+Práctica:
+La base de datos era algo así:
+%niño(nombre, edad, [vacunas_aplicadas]).
+%vacunas_edad(edad_desde, edad_hasta, vacunas_a_aplicarse).
+%vacuna(vacuna, [enfermedades_que_cura]).
+Hacer un programa que permita lo siguiente:
+-Ingresar el nombre de un niño y según la edad, mostrar una lista con las vacunas que le falta aplicarse.
+-Ingresar una enfermedad y mostrar la cantidad de vacunas que la curan.
+Teoría (que me tomó a mí):
+-U1: Problema de consecuencia cierta e incierta.
+-U2: Búsqueda primero el mejor. Componentes de un sistema de planificación. Tipos de planificación.
+-U3: Estructura de un argumento. Validez del argumento. Tabla de verdad. Enunciados lógicamente equivalentes. Prueba formal de validez. Resolución.
+-U4: Estructura del sistema experto.
+-U5: Ventajas de una red neuronal.
