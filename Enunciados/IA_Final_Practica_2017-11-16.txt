@@ -1,0 +1,8 @@
+Final 16-11-2017
+Hechos:
+jardin(CodigoJ, datoqnoserv, [Tipos de Sala]
+salas(CodigoJ, datosqenoserv, tipo_de_sala, [Dni Asistentes])
+1 - Dada una Lista [] de Dni, y un Codigo de Jardin Devolver una Lista [] con aquellos Dni que asisten realmente al Jardin.
+2 - Dada una Lista [] de Jardines, y una Lista [] de Tipos de Sala, devolver una Lista [] con los Jardines que tengan todos los tipos de sala.
+Tips: en ninguno se usaba (o era necesario retract), como solo es recorrer listas las condiciones de fin van al principio. 
+De los que andan dando vuelta, no había visto uno con esta complejidad, no es imposible, pero hay que pensarlo, si el resto los aprendiste mecánicos este costaba un poco más.

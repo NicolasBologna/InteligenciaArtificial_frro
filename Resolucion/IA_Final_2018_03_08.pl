@@ -41,4 +41,4 @@ concatenar([H1|T1], L2, [H1|T3]) :- concatenar(T1, L2, T3).
 concatenar([], [H2|T2], [H2|T3]) :- concatenar([], T2, T3).
 concatenar([],[],[]).
 
-abrir_base :- retractall(nino/3), retractall(vacuna_edad/3), retractall(vacuna/2), consult('C:/Users/Agus/Desktop/Inteligencia Artificial/Guada Info/Prolog/Finales_Agu/BC/BC_IA_Final_Practica_2018_03_08.txt').
+abrir_base :- retractall(nino/3), retractall(vacuna_edad/3), retractall(vacuna/2), consult('C:/Users/Agus/Desktop/Inteligencia Artificial/Guada Info/Prolog/Finales_Agu/BC/BC_IA_Final_2018_03_08.txt').
