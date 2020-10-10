@@ -1,0 +1,14 @@
+
+cancion(1,'cancion1','cantante1',10,'Vals').
+cancion(2,'cancion2','cantante2',18,'Tecno').
+cancion(3,'cancion3','cantante3',16,'Vals').
+cancion(4,'cancion4','cantante4',15,'Vals').
+cancion(5,'cancion5','cantante5',20,'Romance').
+
+invitado('sabio',[1,2,3,4,5]).
+invitado('grunion',[1,2]).
+invitado('feliz',[1,2]).
+invitado('dormilon',[1,2,3]).
+invitado('timido',[1,2,3,4,5]).
+invitado('lloron',[1,2,3]).
+invitado('tontin',[1,2,3,4,5]).
