@@ -23,7 +23,7 @@ menu:- writeln("1 - (Dado un nivel devolver lisatdo de colegios Rosarinos con cu
        writeln("3 - (Salir)"), read(Opc), Opc \= 3, opcion(Opc), menu.
 menu:- writeln("Que tenga un buen dia!").
 
-opcion(1) :- abrir_base, writeln("Ingrese un nivel"), read(N), retractall(colaux/2), getCol(N), devLista(Lista), write("Salida: "), writeln(Lista).
+opcion(1) :- abrir_base, writeln("Ingrese un nivel"), read(N), getCol(N), devLista(Lista), write("Salida: "), writeln(Lista).
 
 opcion(2) :- abrir_base, writeln("Ingrese lista de DNIs"), leer(LD),
              writeln("Ingrese un cod de colegio: "), read(Cod),
@@ -36,13 +36,13 @@ consulta(_, _, [], []).
 pertenece(X, [X|_]).
 pertenece(X, [_|T]) :- pertenece(X, T).
 
-getCol(N) :- retractall(colaux/2), retract(colegio(Cod, _, _, rosario, _)), retract(niveles(Cod, N, _, _, LD)), assert(colaux(Cod, LD)), fail.
+getCol(N) :- retractall(colaux/2), retract(colegio(Cod, _, _, rosario, _)), retract(niveles(Cod, N, _, _, LD)), cuenta(LD, Cant), Cant < 90, assert(colaux(Cod, LD)), fail.
 getCol(_).
 
 cuenta([_], 1).
 cuenta([_|T], Cont) :- T \= [], cuenta(T, ContAux), Cont is ContAux + 1.
 
-devLista([H|T]) :- retract(colaux(H, LD)), cuenta(LD, Cant), Cant < 90, devLista(T).
+devLista([H|T]) :- retract(colaux(H, LD)), devLista(T).
 devLista([]).
 
 leer([H|T]) :- writeln("Ingrese DNI o [] para terminar"), read(H), H \= [], leer(T).
