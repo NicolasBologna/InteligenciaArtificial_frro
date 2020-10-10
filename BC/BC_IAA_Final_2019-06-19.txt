@@ -1,0 +1,11 @@
+
+colegio(1,'mendoza 2000',455555,rosario,[1,2,3,4,5]).
+colegio(2,'cordoba 2000',466666,rosario,[1,2,3,4,5]).
+colegio(3,'urquiza 2000',477777,rosario,[1,2,3,4]).
+colegio(4,'san lorenzo 2000',999999,funes,[1,2,3,4,5]).
+colegio(5,'Algoritmo 1000',222222,funes,[1,2,3,4]).
+
+niveles(1,1,'primero','manana',[11,22,33,44,55,66]).
+niveles(2,1,'segundo','manana',[21,27,32,42,52,62]).
+niveles(3,1,'tercero','manana',[41,43,45,47,48]).
+niveles(2,5,'segundo','manana',[21,27,32,42,52,62]).

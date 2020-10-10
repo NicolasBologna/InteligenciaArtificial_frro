@@ -1,0 +1,13 @@
+[IA- Inteligencia Artificial] Final mesa especial 18/06/2019
+
+colegio(cod_colegio,direccion,telefono,ciudad,[niveles]).
+
+Niveles podían ser unos 4 o 5 que listaba (este dato no servía)
+
+niveles(cod_colegio,nivel,curso,turno,[dni_Alumnos]).
+
+No tengo las consignas literales, pero eran más o menos las siguientes:
+
+1) Para un nivel ingresado devolver un listado con todos los colegios que sean de Rosario, que ofrezcan el nivel ingresado y que tengan hasta 90 alumnos.
+
+2) Dado un listado de Dni de alumnos ingresado, un Colegio y un Turno, devolver otro listado de los alumnos que verdaderamente pertenezcan a ese colegio y asistan a ese turno (de la lista de ingresada).
