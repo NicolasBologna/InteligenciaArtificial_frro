@@ -1,0 +1,8 @@
+                                                  [Final IA 18/12/2019] - Inteligencia Artificial
+Práctica:
+docente(dni,nombre,edad,telefono,direccion,ciudad).
+colegio(nombreColegio,direccion,ciudad).
+colegio_docentes(nombreColegio,dni,[listaMaterias]).
+Un docente podía trabajar en distintos colegios y dar diferentes materias según el colegio.
+1) Listar todos los docentes que trabajen en al menos 2 colegios diferentes de la ciudad de Rosario.
+2) Ingresar una lista de docentes y una lista de colegios y devolver una tercer lista con los docentes que pertenezcan a los colegios ingresados anteriormente.
