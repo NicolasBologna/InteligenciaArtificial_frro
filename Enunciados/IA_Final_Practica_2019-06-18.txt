@@ -11,3 +11,22 @@ No tengo las consignas literales, pero eran más o menos las siguientes:
 1) Para un nivel ingresado devolver un listado con todos los colegios que sean de Rosario, que ofrezcan el nivel ingresado y que tengan hasta 90 alumnos.
 
 2) Dado un listado de Dni de alumnos ingresado, un Colegio y un Turno, devolver otro listado de los alumnos que verdaderamente pertenezcan a ese colegio y asistan a ese turno (de la lista de ingresada).
+
+
+
+TEORIA:
+
+01) Descripción formal de un problema
+02) Escalada, Escala Simple y por máxima pendiente. Qué diferencias tienen.
+03) Reducción de problemas
+04) Verificación de restricciones, todo el proceso y además en qué casos se produce una contradicción.
+05) Componentes de un sistema de planificación
+06) Estructura de un argumento
+07) Cuando un argumento es válido y cuando no lo es.
+08) Tablas de verdad, para qué sirven y cómo se construyen. Demostrar cuando un argumento es válido y cuándo no con una tabla, qué hay que fijarse.
+09) Prueba formal de validez, qué es lo que hace y además como se aplica paso por paso.
+10) Qué es un condicional (antecedente y consecuente), en lógica proposicional qué palabras suelen indicar que estoy frente a un condicional. 
+11) Regla de demostración condicional e indirecta
+12) Un argumento es deductivo o inductivo
+13) Estructura de un sistema experto
+14) Métodos de aprendizaje de las redes neuronales, explicar cada uno.

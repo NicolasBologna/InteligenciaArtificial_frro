@@ -1,4 +1,5 @@
-Se tiene una Base de Datos compuesta por hechos con la siguiente estructura: 
+Se tiene una Base de Datos compuesta por hechos con la siguiente estructura:
+
 camion(cod_camion, marca, modelo, tipo_mma, peso_vacio, tipo1, tipo2, tipo3).
 
 tipo1: Clasificación según el tipo de mercancia a transportar (‘Camión de lona’ / ‘Plataforma abierta’)
@@ -19,3 +20,31 @@ devolver una nueva lista [ ] con los códigos de camión de la lista ingresada q
 
 2. Dada una lista [ ] de códigos de conductores y un código de camion (datos de entrada), 
 devolver una nueva lista [ ] con los nombres de los conductores de la lista ingresada, que NO están habilitados a conducir el camión indicado. 
+
+
+Teoria:(Lucia Puccini Utenianos)
+Cap1. solitarios vs conversacionales. Cuales problemas son mas dificiles de resolver y cuales necesitan más planificación.
+Cap2. Mini-Max y alfa-beta.
+Cap3. Demostración indirecta. Representación procedimental vs declarativa.
+Cap4. Nada..
+Cap5. Ventajas de una Red Neuronal.
+
+Teoria: (Juan Pablo Caminos Utenianos)
+1-consecuencia cierta e incierta
+2-problemas recuperable, no recuperable e ignorables
+3-escalada simple y por maxima pendiente
+4-estructura de un argumento
+5-prueba formal de validez
+6-ventajas de un sistema experto
+7-construccion de un sistema experto
+8-armazones y shells
+9-caracteristicas de las redes neuronales
+
+Teoria:(Amigo de Stella Corral Utenianos)
+1- aprendizaje de redes neuronales (supervisado y no supervisado)
+2- diferencia entre conocimiento declarative y procedimental
+3- estructura de Sistema expert
+4-estructura de un argumento
+5- 9 reglas de inferencia
+6- regla de demostracion indirecta
+7- ramificacion y acotacion.

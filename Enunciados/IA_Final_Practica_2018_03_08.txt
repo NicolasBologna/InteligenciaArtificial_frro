@@ -13,6 +13,7 @@ La base de datos era algo así:
 Hacer un programa que permita lo siguiente:
 -Ingresar el nombre de un niño y según la edad, mostrar una lista con las vacunas que le falta aplicarse.
 -Ingresar una enfermedad y mostrar la cantidad de vacunas que la curan.
+
 Teoría (que me tomó a mí):
 -U1: Problema de consecuencia cierta e incierta.
 -U2: Búsqueda primero el mejor. Componentes de un sistema de planificación. Tipos de planificación.

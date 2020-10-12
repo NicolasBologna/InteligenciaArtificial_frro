@@ -1,0 +1,25 @@
+                                                            [IA] Final de hoy 22/02/2018
+
+institutoSalud(Codinstitu,Nombre,Direccion,Telefono,Sector,[Obras Sociales]).
+Medico(Matricula, Nombre, Especialidad, [CodInstitutos]).
+
+Sector podía ser privado o publico
+1- Devolver una lista [] con los códigos de instituciones que coincidan con la obra social y con el sector, ambos ingresados como dato de entrada.
+2- Devolver una lista [] con los códigos de instituciones en las que atiende un médico y según una obra social, también estos dos datos se ingresaban como dato.
+
+
+
+La teoría nos la tomó Amar porque Laura no apareció. Hizo un Verdadero /Falso que te pedia justificar las falsas. Entre las que anotamos, más o menos era así:
+- El aprendizaje de redes neuronales, los pesos permanecen estables (falso).
+- La validez de un argumento garantiza la verdad de su conclusión(falso).
+- En problemas de consecuencia cierta se puede planificar y conocer cual será la solución(verdadero).
+- En planificación por pila de objetivos se tiene un plan entrelazado de objetivos que tienen como trabajo resolver las precondiciones de otros objetivos (algo así, definía a la planificación no lineal) (falso).
+- Mini max y alfa beta difieren en que el segundo usa generación y prueba(falso).
+- La prueba formal de validez consiste en demostrar la validez de un argumento por una sucesión de argumentos elementales exclusivamente. (falso, también pueden usarse las premisas para demostrar)
+- En un sistema experto el conocimiento se independiza de los procedimientos que hacen uso de el (verdadero).
+- En las redes de hopfield el principal problema es que convergen a mínimos locales(verdadero).
+- Antecedente verdadero y consecuente falso, entonces el enunciado es falso(verdadero).
+- En el primero mejor, si el estado sucesor no es mejor que el estado actual, se detiene(falso).
+- La capacidad de aprendizaje deductivo significa la autoorganización (falso).
+- En escalada por max pendiente se selecciona el primer mejor estado (falso).
+- En verif. de restricciones si hay una contradicción en la suposición, termina el proceso(falso)

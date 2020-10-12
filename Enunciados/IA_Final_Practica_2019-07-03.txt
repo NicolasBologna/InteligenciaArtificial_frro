@@ -11,4 +11,14 @@ para indicar si la caracteristica pertenecia a la lista de caracteristicas de ca
 y despues devolver la lista con los cod de los autos)
 
 
-ingresar una lista de codigos de vehiculos y un año y devolver una lista con los autos que se hayan vendido mas de 10 veces en ese año (era un contar por cada venta de un mismo vehiculo y despues validar si el cont era mayor a 10, hay ejercicios resueltos de este estilo)
+ingresar una lista de codigos de vehiculos y un año y devolver una lista con los autos que se hayan vendido mas de 10 veces en ese año 
+(era un contar por cada venta de un mismo vehiculo y despues validar si el cont era mayor a 10, hay ejercicios resueltos de este estilo)
+
+Las preguntas de teoria que me tomo Laura a mi(fue oral):
+Cap 1) Nada
+Cap 2) primero en profundidad, primero en anchura, algoritmo de unificacion, metodo resolutor
+Cap 3)que es un argunmento, cuando es valido, refutacion por analogia logica, entre otras preguntas frecuentes
+Cap 4) nada
+Cap 5) ventajas y desventajas de las redes neuronales y caracteristicas de èstas. Tambien me pregunto para que servia que la red aprenda, que pasaba con los datos que entraban "sucios" a estas redes, o algo asi fue, pero no supe responderle bien.
+
+El oral fue tranca, no supe responderle lo del algoritmo de unificacion y alguna que otra pregunta. Algunas las estuve pensando un bueeen rato y ella sin embargo me espero. Piola.

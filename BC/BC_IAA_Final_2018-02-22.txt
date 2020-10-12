@@ -1,0 +1,11 @@
+
+institutosalud(1,'Americano','Rioja 1700',222222,'privado',['osde','iapo','esencial','medife']).
+institutosalud(2,'HECA','Pelegrini 3000',333222,'publico',['osde','iapo','esencial','medife','pami','comercio']).
+institutosalud(3,'plaza',' Laprida 1700',555555,'privado',['osde','iapo','pami']).
+institutosalud(4,'Centenario','avellaneda 2000',333999,'publico',['pami']).
+
+medico(11,'Santiago','cardiologo',[1,3]).
+medico(12,'Agustin','cirujano',[2,3]).
+medico(21,'Sebastian','forence',[1,2,3]).
+medico(22,'Odali','pediatria',[2,4]).
+medico(23,'Noelia','clinica general',[1]).
