@@ -1,0 +1,6 @@
+:- dynamic gastos/3.
+
+gastos(nicolas, luz, 1000).
+gastos(nicolas, agua, 600).
+gastos(end_of_file, end_of_file, end_of_file).
+

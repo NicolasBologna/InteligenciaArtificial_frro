@@ -1,0 +1,5 @@
+:- dynamic padres/3.
+
+padres([nico, '.'], [marisa, '.'], [rene, '.']).
+padres(nico, marisa, rene).
+

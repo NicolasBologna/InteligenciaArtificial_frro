@@ -1,0 +1,12 @@
+:- dynamic libro/0.
+
+
+:- dynamic libro/5.
+
+libro(1, "El se�or de los anillos", "J.R.R. Tolkien", "Ateneo", 600).
+libro(2, "El hobbit", "J.R.R. Tolkien", "Kapeluz", 400).
+libro(3, "El Silmarillion", "J.R.R. Tolkien", "Ateneo", 850).
+libro(4, "EL leon la bruja y el ropero", "C.S Lewis", "Kapeluz", 200).
+libro(5, "EL sobrino del mago", "C.S Lewis", "Kapeluz", 250).
+libro(6, "La silla de plata", "C.S. Lewis", "Ateneo", 320).
+

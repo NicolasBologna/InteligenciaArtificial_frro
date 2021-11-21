@@ -1,0 +1,22 @@
+﻿cerveza("Golden Ale",[1,4,7,12]).  
+cerveza("Honey",[1,4,8,12]). 
+cerveza("Hefe Weizen",[1,6,11,12]). 
+cerveza("Stout",[2,5,9,13]).
+cerveza("Amber Ale",[3,4,10,12]). 
+cerveza("India Pale Ale",[3,5,10,14]). 
+
+atributo(1,1,'Es de color rubia.').
+atributo(1,2,'Es de color negra.').
+atributo(1,3,'Es de color ambar.').
+atributo(2,4,'Es de sabor dulce.').
+atributo(2,5,'Es de sabor amargo.').
+atributo(2,6,'Es de sabor ácido.').
+atributo(3,7,'Tiene aroma a caramelo.').
+atributo(3,8,'Tiene aroma a miel.').
+atributo(3,9,'Tiene aroma a café.').
+atributo(3,10,'Tiene aroma a cítricos.').
+atributo(3,11,'Tiene aroma a trigo.').
+atributo(4,12,'Tiene baja graduación alcohólica.').
+atributo(4,13,'Tiene moderada graduación alcohólica.').
+atributo(4,14,'Tiene alta graduación alcohólica.').
+

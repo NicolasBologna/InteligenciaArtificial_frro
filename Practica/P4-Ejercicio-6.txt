@@ -1,0 +1,22 @@
+:- dynamic receta/0.
+
+
+:- dynamic receta/2.
+
+receta(1, "Risoto").
+receta(2, "pastel de papa").
+receta(3, "Empanadas").
+
+:- dynamic ingrediente/3.
+
+ingrediente(1, arroz, 500).
+ingrediente(2, papa, 500).
+ingrediente(2, carne, 300).
+ingrediente(2, aceituna, 20).
+ingrediente(3, aceituna, 1).
+ingrediente(3, carne, 50).
+ingrediente(3, masa, 100).
+
+
+
+

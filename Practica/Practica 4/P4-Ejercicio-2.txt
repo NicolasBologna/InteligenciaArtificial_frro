@@ -1,0 +1,7 @@
+:- dynamic personas/2.
+
+personas(1, nicolas).
+personas(2, antonella).
+personas(end_of_file, end_of_file).
+personas(3, ana).
+

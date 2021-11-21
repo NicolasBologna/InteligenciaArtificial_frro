@@ -1,0 +1,17 @@
+:- dynamic animal/2.
+
+animal("elefante", alimentacion(pasto, 300)).
+animal("elefante", bebida(agua, 400)).
+animal("elefante", reproduccion(verano, "9 meses")).
+animal("elefante", horasSuenio(4)).
+
+animal("jirafa", alimentacion(hojas, 150)).
+animal("jirafa", bebida(agua, 100)).
+animal("jirafa", reproduccion(verano, "5 meses")).
+animal("jirafa", horasSuenio(8)).
+
+animal("hipopotamo", alimentacion(pescado, 200)).
+animal("hipopotamo", bebida(agua, 300)).
+animal("hipopotamo", reproduccion(invierno, "3 meses")).
+animal("hipopotamo", horasSuenio(12)).
+

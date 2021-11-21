@@ -1,0 +1,8 @@
+:- dynamic gastos/2.
+
+gastos(nicolas, super(4000)).
+gastos(nicolas, super(4300)).
+gastos(nicolas, super(120)).
+gastos(ana, super(4300)).
+gastos(juan, super(134)).
+

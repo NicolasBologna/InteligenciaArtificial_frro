@@ -1,0 +1,1 @@
+inicio :- writeln('Ingrese una cadena: '), read(C), sub_atom(C, 0, 1, _, Sub), writeln('El primer caracter es: '), writeln(Sub).
