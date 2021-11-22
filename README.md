@@ -49,6 +49,28 @@ list_max_elem([X],X).
 list_max_elem([X,Y|Rest],Max) :- list_max_elem([Y|Rest],MaxRest), max_of_two(X,MaxRest,Max).
 ```
 
+---
+
+> El tema de armar una lista nueva hay q tomarlo como lo siguiente:
+
+1. A partir de la regla de fin (por ej `leer([]).`) como q se inicializa la lista [].
+2. Después va tomando los valores que tiene ese parámetro en cada iteración. Por ejemplo, leiste "a, b, c, d" recursivamente entonces va llamando a la pila y va viendo esto:
+   1. `leer([H|T]).` acá H = d -> `leer([d|T]).`
+   2. `leer([H|T]).` acá H = c -> `leer([c|[d]]).`
+   3. `leer([H|T]).` acá H = b -> `leer([b|[c,d]]).`
+   4. `leer([H|T]).` acá H = a -> `leer([a|[b,c,d]]).`
+
+(PONELE).
+
+Para el caso de: Informar cuántas veces está ese elemento en la lista.
+
+```prolog
+contarElemento([],_,0). /*Condición de fin*/
+contarElemento([H|T], Elemento, Cantidad):- H = Elemento, contarElemento(T,Elemento,CantParcial),  Cantidad is CantParcial + 1. /*los contadores y acumuladores siempre al final, aca pongo el H = Elemento antes de la recursividad pq queremos que el falso nos de antes de que haga toda la vuelta para atras*/
+contarElemento([_|T], Elemento, Cantidad):- contarElemento(T, Elemento, Cantidad). /*para q sepa q hacer cuando H = Elemento es false*/
+```
+---
+
 ## PROLOG
 ---
 
