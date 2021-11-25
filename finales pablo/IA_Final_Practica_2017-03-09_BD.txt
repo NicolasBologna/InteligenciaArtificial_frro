@@ -1,0 +1,12 @@
+cliente(1,juan,iapos).
+cliente(2,rick,iapos).
+cliente(3,eze,osde).
+cliente(4,marcos,swiss).
+
+practica(1,tessi,123,3,si).
+practica(2,tessi,234,3,no).
+practica(3,tessi,654,3,no).
+practica(4,tessi,234234,3,no).
+practica(5,tessi,123,1,si).
+practica(6,tessi,01243,1,si).
+practica(7,tessi,2345,3,no).

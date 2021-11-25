@@ -1,0 +1,9 @@
+:- dynamic palabra/3.
+
+palabra(juan, j, 1).
+palabra(juana, j, 1).
+palabra(jancito, j, 1).
+palabra(alberto, a, 1).
+palabra([j, u, a, n], j, 1).
+palabra([juan, juana, ezequiel], j, 1).
+

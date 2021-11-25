@@ -1,0 +1,22 @@
+La red de almacenes “Comercio Justo” organiza su trabajo 
+con un programa en prolog que contará con una base de hechos 
+con la siguiente estructura:
+
+almacen(nombre, dirección, [lista de id de sucursales])
+sucursal(id de sucursal, nombre, dirección, cantidad de empleados)
+producto(nombre, precio, cadena de frio, fecha de vencimiento, id de sucursal)
+
+Cada almacen tiene una o más sucursales, de las cuales se conoce 
+su nombre, dirección y su cantidad de empleados.
+De cada producto se conoce su nombre, su precio, si necesita 
+cadena de frío (Cuyo valor puede ser “Si” o “No”), la fecha de 
+vencimiento (con el formato DD/MM/AAAA) y la sucursal que lo tiene 
+en stock.
+
+Desarrollar un programa en prolog que permita:
+1- Dado un almacén devolver la cantidad de empleados que tienen 
+todas sus sucursales en total.
+2- Dada una lista de productos, crear la regla 
+dividir_por_vencimiento/4 que devuelva 3 listas, una con los 
+productos que vencen en el año 2020, otra con los productos que 
+vencen en el año 2021 y otra con el resto de los productos.

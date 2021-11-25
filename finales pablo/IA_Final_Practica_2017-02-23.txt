@@ -1,0 +1,14 @@
+edificio(torre1,'necochea 113',rosario).
+edificio(sol,'montevideo 1113',rosario).
+edificio(luna,'Pellegrini 800',rosario).
+edificio(torreper,'necochea 113',pergamino).
+departamento(torre1, 7, a, 3000, libre, [1,3,4]).
+departamento(torreper, 2, a, 4000, libre, [2,3]).
+departamento(sol, 15, a, 40000, libre, [1,2,3,4,5]).
+departamento(luna, 8, a, 12000, ocupado, [1,3,4]).
+caracteristica(1, balcon).
+caracteristica(2, terraza).
+caracteristica(3, estacionamiento).
+caracteristica(4, pileta).
+caracteristica(5, quincho).
+

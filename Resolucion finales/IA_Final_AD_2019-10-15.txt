@@ -1,0 +1,74 @@
+:-dynamic provincia/2.
+:-dynamic localidad/3.
+:-dynamic persona/5.
+:-dynamic candidato/2. 
+:-dynamic intencion_de_voto/2.
+
+
+provincia(1, 'Buenos Aires').
+provincia(2, 'Catamarca').
+provincia(3, 'Chaco').
+provincia(4, 'Chubut').
+provincia(5, 'Córdoba').
+provincia(6, 'Corrientes').
+provincia(7, 'Entre Ríos').
+provincia(8, 'Formosa').
+provincia(9, 'Jujuy').
+provincia(10, 'La Pampa').
+provincia(11, 'La Rioja').
+provincia(12, 'Mendoza').
+provincia(13, 'Misiones').
+provincia(14, 'Neuquén').
+
+localidad(1, 'CABA', 1).
+localidad(2, 'Avellaneda', 1).
+localidad(3, 'Berazategui', 1).
+localidad(4, 'Caballito', 1).
+localidad(5, 'Flores', 2).
+localidad(6, 'Floresta', 2).
+localidad(7, 'Parque Patricios', 2).
+localidad(8, 'Villa Crespo', 3).
+localidad(9, 'Villa Lugano', 3).
+localidad(10, 'Villa Maria', 3).
+localidad(11, 'Villa Ortuzar', 4).
+localidad(12, 'Villa Pueyrredon', 4).
+localidad(13, 'Villa Riachuelo', 5).
+localidad(14, 'Villa Santa Rita', 5).
+localidad(15, 'Villa Soldati', 5).
+localidad(16, 'Villa Urquiza', 6).
+localidad(17, 'Villa del Parque', 7).
+localidad(18, 'Villa Ocampo', 7).
+localidad(19, 'Villa María', 8).
+localidad(20, 'Villa San Lorenzo', 8).
+localidad(21, 'Villa San Martín', 9).
+localidad(22, 'Villa Santa Rita', 9).
+localidad(23, 'Villa Urquiza', 9).
+localidad(24, 'Villa La Florida', 10).
+
+
+persona(1, 'Juan', '19/10/1980', 1000, 1).
+persona(2, 'Pedro', '20/10/1930', 2000, 2).
+persona(3, 'Carlos', '21/10/1940', 3000, 3).
+persona(4, 'Mariano', '22/10/1950', 4000, 4).
+persona(5, 'Juan', '23/10/1955', 5000, 5).
+persona(6, 'Pedro', '24/10/1945', 6000, 6).
+persona(7, 'Carlos', '25/10/1964', 7000, 7).
+persona(8, 'Mariano', '26/10/1965', 8000, 8).
+persona(9, 'Juan', '27/10/1913', 9000, 9).
+persona(10, 'Pedro', '28/10/1999', 10000, 10).
+
+candidato(1, 'Juan').
+candidato(2, 'Pedro').
+candidato(3, 'Carlos').
+
+intencion_de_voto(1, 1).
+intencion_de_voto(2, 2).
+intencion_de_voto(3, 3).
+intencion_de_voto(4, 1).
+intencion_de_voto(5, 2).
+intencion_de_voto(6, 3).
+intencion_de_voto(7, 1).
+intencion_de_voto(8, 2).
+intencion_de_voto(9, 3).
+intencion_de_voto(10, 1).
+intencion_de_voto(11, 2).

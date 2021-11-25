@@ -1,0 +1,18 @@
+persona(1,'Juan',10).
+persona(2,'Cristiano Ronaldo',100).
+persona(3,'Pepe Lui',40).
+persona(4,'Pappo',22).
+persona(5,'Jorge Jaime',250).
+persona(6,'Mirta Legrand',100000).
+persona(7,'Jaimito',3).
+persona(8,'Ronaldinho',19).
+
+auto_vendido(1,1,'01-02-1990',20,[1,2,3]).
+auto_vendido(2,1,'01-02-1990',30,[2,3,5]).
+auto_vendido(3,1,'01-02-1990',40,[5,6,7]).
+auto_vendido(4,2,'01-02-1990',80,[8,1,2]).
+auto_vendido(5,2,'01-02-1990',90,[6,5,4]).
+auto_vendido(6,2,'01-02-1990',100,[3,4,8]).
+
+auto(1,'Fitito').
+auto(2,'Falcona').

@@ -1,0 +1,13 @@
+persona(1,asd,70,osde,gold).
+persona(2,asd,34,osde,gold).
+persona(3,gf,76,swiss,pro).
+persona(4,fdsf,77,osde,binario).
+persona(2,asd,34,swiss,pro).
+
+obraSocial(osde,gold,ibu,100).
+obraSocial(osde,gold,lora,100).
+obraSocial(osde,gold,keterolac,60).
+obraSocial(swiss,pro,ibu,100).
+obraSocial(osde,gold,para,100).
+obraSocial(swiss,pro,kete,50).
+obraSocial(swiss,pro,para,49).

@@ -1,0 +1,22 @@
+vehiculo(1,[negro,sedan,peugeot]).
+vehiculo(2,[rojo,sedan,toyota]).
+vehiculo(3,[azul,hatch,chevrolet]).
+vehiculo(4,[gris,hatch,chevrolet]).
+vehiculo(5,[negro,sedan,toyota]).
+
+ventas(3,'17-06-2016').
+ventas(1,'20-09-2015').
+ventas(1,'31-10-2015').
+ventas(4,'20-09-2015').
+ventas(1,'30-11-2015').
+ventas(2,'17-06-2016').
+ventas(2,'10-04-2015').
+ventas(2,'20-01-2016').
+ventas(3,'27-03-2016').
+ventas(1,'20-09-2016').
+ventas(3,'17-05-2016').
+ventas(1,'20-09-2016').
+ventas(4,'07-08-2016').
+ventas(1,'20-09-2016').
+
+/*2015: 1; 2016: 1,3*/

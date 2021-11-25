@@ -49,6 +49,16 @@ list_max_elem([X],X).
 list_max_elem([X,Y|Rest],Max) :- list_max_elem([Y|Rest],MaxRest), max_of_two(X,MaxRest,Max).
 ```
 
+### para hacer busqueda en listas
+```prolog
+/*cuando tienen que estar todos los elementos*/
+contiene([],_).
+contiene([H2|T2], L3):- caracteristica(Nro,H2),pertenece(Nro,L3), contiene(T2,L3).
+
+/*cuando tieneque haber al menos uno*/
+contiene([H2|T2], L3):- caracteristica(Nro,H2),pertenece(Nro,L3).
+contiene([_|T2], L3):- contiene(T2,L3).
+```
 ---
 
 > El tema de armar una lista nueva hay q tomarlo como lo siguiente:
@@ -69,6 +79,17 @@ contarElemento([],_,0). /*Condición de fin*/
 contarElemento([H|T], Elemento, Cantidad):- H = Elemento, contarElemento(T,Elemento,CantParcial),  Cantidad is CantParcial + 1. /*los contadores y acumuladores siempre al final, aca pongo el H = Elemento antes de la recursividad pq queremos que el falso nos de antes de que haga toda la vuelta para atras*/
 contarElemento([_|T], Elemento, Cantidad):- contarElemento(T, Elemento, Cantidad). /*para q sepa q hacer cuando H = Elemento es false*/
 ```
+
+#### Transformar una cadena en una lista de caracteres. 
+##### Acá hay que hacer lo mismo q en el read, ponemos una lista donde vamos "cargando" el H y pasamos el T a la recursividad.
+```prolog
+inicio:-read(Cadena), longitud(Cadena, Lista), write(Lista). 
+
+longitud(Cadena, [H|T]):- sub_atom(Cadena,_,1,0,UltimoElemento), write(UltimoElemento),
+    H = UltimoElemento, sub_atom(Cadena,0,_,1,SubCadena),writeln(SubCadena),longitud(SubCadena, T).
+longitud('', []).
+```
+
 ---
 
 ## PROLOG
@@ -114,3 +135,9 @@ Una variable no instanciada puede usarse con sentencias de asignación. El valor
 | Resto de la división entera  | X is 7 mod 2. |
 | División entera X | is 7 // 2. |
  
+
+---
+
+sub_atom(+Atom, ?Before, ?Length, ?After, ?SubAtom)
+
+sub_atom(Cadena,0,_,1,SubCadena) trae la cadena sin el ultimo elemento.

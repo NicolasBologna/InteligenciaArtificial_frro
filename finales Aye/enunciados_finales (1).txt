@@ -1,0 +1,120 @@
+1 - AlumnoMateria - 30/10/2019
+Se tienen alumnos, materias, carrera y resultado en examen final
+1) Ingresar una materia,anio y lista de DNI de alumnos y devolver 2 listas, una con los nombre de los alumnos que aprobaron de esa materia y anio y otra con los que no.
+2) Ingresar una lista de ids de materia y devolver una lista con las carreras que tengan toda esas listas de ids ingresadas.
+
+2 - UsuarioProvinciaPais - 24/10/2018
+usuario(id, estado, edad, ciudad, [ids usuarios amigos]).
+provincia(id, nombre, [ids ciudades]).
+pais(id, nombre, [ids provincias]).
+El estado de un usuario puede ser activo o inactivo.
+1) Mostrar la cantidad de usuarios activos que vivan en países que tengan más de 20 provincias.
+2) Ingresar los datos de un usuario (id, estado, edad, ciudad, [ids usuarios amigos]) y guardarlo en la base de datos sólo si es argentino y mayor de 18 años.
+
+3 - Votacion - 15/10/2019
+1-Lista de personas nacidas antes del año 1950 de una provincia(Se leia el nombre de una provincia).
+  2-Mostrar el salario promedio de las personas con intencion de voto hacia un candidato ingresado de una provincia(Se leia el nombre
+  de la provincia y del candidato).
+
+4 - AmigosComentarios - 28/11/2018
+usuarios(id, edad, estado, ciudad, [idAmigos]).
+comentarios(idcomentario,idusuario, comentario).
+provincia(idprovincia, [ciudades])
+Se trataba de una red social en donde habia usuarios y hacian comentarios. Decia que un usuario puede estar activo o inactivo y que los amigos de un usuario estan en la lista idAmigos y que es bidireccional.
+1- Mostrar la cantidad (numero) de usuarios que estan activos que hayan hecho al menos 2 comentarios.
+2- Para un usuario ingresado, mostrar una lista de usuarios que podrian ser sus amigos. Los usuarios que se listan NO tienen que estar en su lista de amigos actualmente. Ademas no tienen que haber realizado ningun comentario y tienen que ser de la misma ciudad que el usuario ingresado
+
+5 - ProfesionCursos - 26/02/2019
+Dada la siguiente BD:
+personas(Nombre, Edad, [Profesiones],Ciudad).
+cursos(Profesion, [Cursos]).
+personas_cursos(Nombre,Profesion,[CursosRealizados]).
+1) Ingresar una profesión (dato de entrada), y mostar la edad promedio de dicha profesion en la ciudad de Rosario.
+2) Ingresar una profesión (dato de entrada), y mostrar para cada persona, la lista de cursos que le faltan realizar.
+3) Mostrar la profesión con mayor cantidad de cursos
+
+6 - ObrasSociales - 22/02/2018
+1-Devolver una lista [] con códigos de instituciones que coincidan con la obra social y con el sector, ambos ingresados como datos de entradas.
+ 2-Devolver una lista [] con los códigos de instituciones en las que  atiende un médico y según una obra social, también estos dos datos se
+ ingresaban por teclado.
+
+7 - NivelesColegios - 18/06/2019
+colegio(cod_colegio,direccion,telefono,ciudad,[niveles]).
+Niveles podían ser unos 4 o 5 que listaba (este dato no servía)
+niveles(cod_colegio,nivel,curso,turno,[dni_Alumnos]).
+No tengo las consignas literales, pero eran más o menos las siguientes:
+1) Para un nivel ingresado devolver un listado con todos los colegios que sean de Rosario, que ofrezcan el nivel ingresado y que tengan hasta 90 alumnos.
+2) Dado un listado de Dni de alumnos ingresado, un Colegio y un Turno, devolver otro listado de los alumnos que verdaderamente pertenezcan a ese colegio y asistan a ese turno (de la lista de ingresada).
+Por las dudas aclaro que un colegio tiene muchos niveles, un nivel tiene muchos cursos, un curso tiene muchos turnos
+
+8 - Canciones - 17/12/2015
+1-Listar las canciones que le guste a más del 80 porciento de los invitados.
+  2-Listar las canciones de genero Vals que duren mas de 15 minutos.
+
+9 - Jardines - 16/11/2017
+Hechos:
+jardin(CodigoJ, datoqnoserv, [Tipos de Sala]
+salas(CodigoJ, datosqenoserv, tipo_de_sala, [Dni Asistentes])
+1 - Dada una Lista [] de Dni, y un Codigo de Jardin Devolver una Lista [] con aquellos Dni que asisten realmente al Jardin.
+2 - Dada una Lista [] de Jardines, y una Lista [] de Tipos de Sala, devolver una Lista [] con los Jardines que tengan todos los tipos de sala.
+Tips: en ninguno se usaba (o era necesario retract), como solo es recorrer listas las condiciones de fin van al principio. 
+De los que andan dando vuelta, no había visto uno con esta complejidad, no es imposible, pero hay que pensarlo, si el resto los aprendiste mecánicos este costaba un poco más.
+
+10 - Vacunas - 08/03/2018
+Dada una BD con los siguientes hechos:
+niño(nombre,edad,[vacunas_aplicadas]).
+vacuna(vacuna,[enfermedades_que_combate]).
+vacuna_aplicacion(edadDesde,edadHasta,[vacunas_a_aplicar]).
+1) Ingresar un niño y en base a su edad indicar en una lista las vacunas que le faltan aplicar.
+2) Ingresar una enfermedad y mostrar la cantidad de vacunas que la curan.
+
+11 - Autos - 03/07/2019
+1)Ingresar una caracteristica y devolver una lista con códigos de los autos que tengan esa caracteristica.
+2)Ingresar una lista de código de vehiculos y un año y devolver una lista con los
+autos que se hayan vendido mas de 10 veces en ese año.
+
+12 - CamionesConductores - 12/08/2020
+Se tiene una Base de Datos compuesta por hechos con la siguiente estructura: 
+camion(cod_camion, marca, modelo, tipo_mma, peso_vacio, tipo1, tipo2, tipo3). tipo1: Clasificación según el tipo de mercancia a transportar (‘Camión de lona’ / ‘Plataforma abierta’) tipo2: Clasificación según Dimensiones (‘2 ejes’ / ‘3 ejes’ / ‘4 ejes’) tipo3: Clasificación según Estructura vehículo (‘Rígido’ / ‘Articulado’ / ‘Trailer’ / ‘Tren de carretera’) 
+conductor(cod_conductor, apellido_nombre, edad, ciudad_natal, [cod_camion]). [cod_camion]: Lista de códigos de camión que el conductor está habilitado a conducir 
+Ejemplo de hechos con datos: camion(1553, scania, 2015, N1, 1000, ‘Camión de lona’, ‘2 ejes’, ‘Rígido’). conductor(523, ‘Suárez Mario’, 56, ‘Rosario’, [1553,1645,1825]). 
+Desarrollar un programa en PROLOG que permita: 
+1. Dada una lista [ ] de códigos de camiones, una marca y modelo, (datos de entrada) devolver una nueva lista [ ] con los códigos de camión de la lista ingresada que sean de la marca y modelo indicado. 
+2. Dada una lista [ ] de códigos de conductores y un código de camion (datos de entrada), devolver una nueva lista [ ] con los nombres de los conductores de la lista ingresada, que NO están habilitados a conducir el camión indicado.
+
+13 - DocenteColegio - 18/12/2019
+docente(dni,nombre,edad,telefono,direccion,ciudad).
+colegio(nombreColegio,direccion,ciudad).
+colegio_docentes(nombreColegio,dni,[listaMaterias]).
+Un docente podía trabajar en distintos colegios y dar diferentes materias según el colegio.
+1 Listar todos los docentes que trabajen en al menos 2 colegios diferentes de la ciudad de Rosario.
+2 Ingresar una lista de docentes y una lista de colegios y devolver una tercer lista con los docentes que pertenezcan a los colegios ingresados anteriormente.
+
+14 - Medicamentos 
+Dada la siguiente base de datos de hechos compuesta por hechos de la forma:
+medicamentos(nombre,droga,presentación,laboratorio,[síntomas que contrarresta]).
+composición(nombre,componente,cantidad).
+1) Ingresar una lista [] de síntomas que presenta un paciente e informar a través de una nueva lista [] los nombres de los medicamentos que contrarrestan al menos el 80% de los síntomas del paciente.
+2) Ingresar dos componentes y sus respectivas cantidades e informar a través de una lista [] los nombres de los medicamentos que contienen dichos componentes y en la cantidad indicada.
+Nota Personal: para resolver el punto 2 hay que tener en cuenta que el medicamento debe contener los 2 componentes en las 2 cantidades indicadas.
+
+15 - ObrasSociales2 - 10/08/2017
+persona(dni,nombre,edad,obraSocial,plan).
+obraSocial (obra,plan, medicamento,%cobertura).
+1- devolver una lista con los DNI de las personas que tengan más de 65 años y cuyo plan cubra al menos 10 medicamentos al 100%.
+2- devolver los datos de aquellas personas que tengan más de una obra social.
+(Atentos con el segundo ejercicio, según Laura "casi nadie lo hizo bien, porque era bien sencillo y todos se entreveraron". 
+Era con fail, no con retract.)
+
+16 - PracticasCliente - 09/03/2017
+Cliente(dni,nombre,obrasocial).
+Practica(cod,medico,fecha,dnicliente,asistio).
+Ingresar un dni y buscar si el cliente entre todas sus practicas falto mas de un 80% y asi escribir si es posible que falte o no.
+Si no hay practicas registradas para ese cliente informar que no hay datos suficientes para saberlo.
+
+17 - Remises - 30/11/2017
+auto(nro_movil, patente, un par de cosas mas)
+viaje(nro_movil, costo)
+Y te pedían:
+1. Monto total acumulado por cada auto
+2. Dada una lista de autos devolver de esa lista cuales tenian al menos un viaje con costo mayor a 300

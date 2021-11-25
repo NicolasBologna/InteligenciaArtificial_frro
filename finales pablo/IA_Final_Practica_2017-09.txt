@@ -1,0 +1,27 @@
+catedra(aed,22).
+catedra(ami,123).
+catedra(syo,2323).
+catedra(sdg,897).
+
+comision(aed,1,2017,[1,2]).
+comision(ami,2,2014,[1,2,3,4,5]).
+comision(ami,3,2017,[6,7,8,9,10,11]).
+comision(syo,7,2017,[1,2,3,4,5,6]).
+comision(syo,3,2017,[7,8,10,11,12,13,14]).
+comision(sdg,3,2017,[1,2,3]).
+comision(aed,4,2017,[3,11]).
+
+alumno(1, ezequiel).
+alumno(2, juan).
+alumno(3, ariel).
+alumno(4, luis).
+alumno(5, pepe).
+alumno(6, asd).
+alumno(7, alumno).
+alumno(8, wowo).
+alumno(9, carlos).
+alumno(10, santi).
+alumno(11, rodri).
+alumno(12,mama).
+alumno(13,papa).
+alumno(14,jose).

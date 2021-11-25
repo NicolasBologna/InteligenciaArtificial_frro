@@ -1,0 +1,14 @@
+auto(1,eff411).
+auto(2,aog271).
+auto(3,ngs437).
+auto(4,eff411).
+auto(5,dqm533).
+viaje(1,100).
+viaje(1,140).
+viaje(1,150).
+viaje(2,10).
+viaje(2,40).
+viaje(2,20).
+viaje(3,80).
+viaje(5,3990).
+viaje(5,10).

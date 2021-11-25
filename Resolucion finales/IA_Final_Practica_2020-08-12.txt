@@ -1,0 +1,17 @@
+:-dynamic camion/8.
+:-dynamic conductor/5.
+
+camion(1, scania, 2015, sd, 1000, 'Camión de lona', '2 ejes', 'Rígido').
+camion(2, volvo, 2015, n, 1000, 'Camión de lona', '2 ejes', 'Rígido').
+camion(3, scania, 2017, sd, 1000, 'Camión de lona', '2 ejes', 'Rígido').
+camion(4, scania, 2016, sd, 1000, 'Camión de lona', '2 ejes', 'Rígido').
+camion(5, scania, 2018, sd, 1000, 'Camión de lona', '2 ejes', 'Rígido').
+camion(6, scania, 2014, sd, 1000, 'Camión de lona', '2 ejes', 'Rígido').
+camion(7, scania, 2015, sd, 1000, 'Camión de lona', '2 ejes', 'Rígido').
+camion(8, scania, 2015, sd, 1000, 'Camión de lona', '2 ejes', 'Rígido').
+
+
+conductor(1, 'Perez Mario', 56, 'Rosario', [1,2,3]).
+conductor(2, 'Fernandez Mario', 56, 'Rosario', [1,2,3]).             
+conductor(3, 'Suarez Mariano', 56, 'Rosario', [1,2]).
+conductor(4, 'Cruz Jardinero', 56, 'Rosario', [7,8,9]).

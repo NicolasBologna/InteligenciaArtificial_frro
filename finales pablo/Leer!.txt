@@ -1,0 +1,10 @@
+-En los ejercicios en los que hay que validar una condicion 
+para cada hecho de un mismo tipo de la base, recorriendo cada uno,
+hay un mambo con el uso del retract. Yo hago retract y valido condicion,
+pero en el final me corrigieron que el retract debe ir despues de la
+validacion (no entendi muy bien, igualmente el programa anda bien,
+es una cuestión teórica o de buena practica).
+
+-Si se puede usar fail, USARLO. Yo uso creo que siempre retract. Igual
+el fail se puede usar solo para mostrar cosas si no me equivoco (listando).
+

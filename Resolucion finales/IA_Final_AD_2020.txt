@@ -1,0 +1,19 @@
+:-dynamic almacen/3.
+:-dynamic sucursal/4.
+:-dynamic producto/5.
+
+
+almacen(almacen1,'Mitre 1920',[1,2]).
+almacen(almacen2,'Pellegrini 152',[3,4]).
+
+sucursal(1,sucursal1,aaa,10).
+sucursal(2,sucursal2,bbb,15).
+sucursal(3,sucursal3,ccc,20).
+sucursal(4,sucursal4,ddd,10).
+
+producto(p1,100,si,'14/10/2020',1).
+producto(p2,150,si,'12/07/2017',1).
+producto(p3,100,no,'14/10/2021',2).
+producto(p4,150,si,'12/07/2021',3).
+producto(p5,100,si,'14/10/2019',1).
+producto(p6,150,si,'12/07/2020',1).

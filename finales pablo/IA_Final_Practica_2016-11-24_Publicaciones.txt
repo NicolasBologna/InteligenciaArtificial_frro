@@ -1,0 +1,13 @@
+publicacion(1, promocionProductos, 1, []).
+publicacion(2, ofertasInvierno, 1, []).
+publicacion(3, ofertasOtoño, 1, []).
+publicacion(4, cyberMonday, 1, [2,7,25,8,43,105,125,3]).
+publicacion(5, aumentoDePrecios, 1, []).
+publicacion(6, nosReFundimos, 1, []).
+publicacion(7, noNosAndaElInventario, 2, [8, 25, 34, 48, 7, 33]).
+publicacion(8, lasVariantesTampoco, 2, [5, 10, 24, 36, 84, 54, 1001, 2007]).
+publicacion(9, plantillasQueNil, 2, []).
+
+usuario(1, tiendaNuve, 4).
+usuario(2, pabloECommerce, 0).
+usuario(3, mercadoLibre, 10).

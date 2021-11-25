@@ -1,0 +1,34 @@
+socio(37491391,nant,m,23).
+socio(37491392,tantucci,f,23).
+socio(37491393,laquili,f,40).
+socio(37491394,pablodroide,m,35).
+ejercicio(1, cinta, 1, m, 20, 30).
+ejercicio(2, abdominales, 2, f, 20, 30).
+ejercicio(3, gluteos, 3, f, 35, 45).
+ejercicio(4, unalgoritmo, 4, m, 30, 40).
+ejercicio(5, unosCálculos, 4, m, 30, 40).
+ejercicio(6, biceps, 3, f, 35, 45).
+
+asistencia(1, 37491391, 3600, [1, 2, 4]).
+asistencia(1, 37491392, 3600, [1, 3, 4]).
+asistencia(1, 37491393, 3600, [1, 2, 4]).
+asistencia(1, 37491394, 3600, [1, 3, 4]).
+asistencia(2, 37491392, 1200, [1, 3, 4]).
+asistencia(2, 37491393, 3600, [1, 2, 4]).
+asistencia(2, 37491394, 3600, [1, 3, 4]).
+asistencia(3, 37491394, 7800, [1, 3, 4]).
+
+/*asistencia('2017.11.11', 37491391, 3600, [1, 2, 4]).
+asistencia('2017.11.11', 37491392, 3600, [1, 3, 4]).
+asistencia('2017.11.11', 37491393, 3600, [1, 2, 4]).
+asistencia('2017.11.11', 37491394, 3600, [1, 3, 4]).
+asistencia('2017.11.12', 37491392, 1200, [1, 3, 4]).
+asistencia('2017.11.12', 37491393, 3600, [1, 2, 4]).
+asistencia('2017.11.12', 37491394, 3600, [1, 3, 4]).
+asistencia('2017.11.13', 37491394, 7800, [1, 3, 4]).*/
+nivel(1,inicial,0,72).
+nivel(2,medio,72,100).
+nivel(3,avanzado,100,200).
+nivel(4,extremo,200,500).
+
+
