@@ -24,7 +24,7 @@ inicio:- abrir_base, write('ingrese la opcion: '), read(Opc), opcion(Opc).
 
 opcion(1):-  write('ingrese provincia: '), read(Provincia), listarPersonas(Provincia), inicio.
 
-opcion(2):- write('ingrese provincia: '), read(Provincia),write('ingrese candidato: '), read(Candidato),.
+opcion(2):- write('ingrese provincia: '), read(Provincia),write('ingrese candidato: '), read(Candidato).
 
 opcion(_).
 
