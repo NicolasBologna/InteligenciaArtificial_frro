@@ -142,4 +142,4 @@ sub_atom(+Atom, ?Before, ?Length, ?After, ?SubAtom)
 
 sub_atom(Cadena,0,_,1,SubCadena) trae la cadena sin el ultimo elemento.
 
-&copy Agustín Elias y Nicolás Bologna
+&copy; Agustín Elias y Nicolás Bologna
